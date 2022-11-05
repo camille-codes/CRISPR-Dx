@@ -1,6 +1,6 @@
 # CRISPR-Dx
 
-**Requirements**
+**Requirements:**
 
 Operating system: Linux
 
