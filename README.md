@@ -4,17 +4,17 @@ The main goal of this project is to develop a Bioinformatics pipeline for design
 
 The pipeline consists of three modules: **Target Identification, Target Evaluation, and Uniqueness Evaluation**. In the Target Identification stage, the program scans the target genome sequences and searches for candidate guide-RNA sites that are common across all targets. In Target Evaluation, the program extracts features from the guide-RNA sequences and runs them through a machine learning algorithm that predicts whether they have high (positive) or low (negative) activity in terms of cleavage efficiency. Lastly, in Uniqueness Evaluation, the program outputs the guide-RNA sequences that is unique to that particular family of virus through comparative analysis. 
 
-**Requirements:**
+## Requirements
 
-Operating system: Linux
+**Operating system:** Linux
 
-Linux Packages:
+**Linux Packages:**
 * Vienna-RNA
 * OffTargets (needs permission from CSIRO to download)
 
-Python: Version 3.8 and above
+**Python:** Version 3.8 and above
 
-Python Libraries
+**Python Libraries**
 * biopython
 * bcbio-gff
 * numpy
@@ -23,7 +23,7 @@ Python Libraries
 * keras
 * scikit-learn
 
-**Parameters**
+## Parameters
 
 * *--motif* : Protospacer Adjacent Motif (PAM) or Protospacer Flanking Site (PFS)\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String characters such as NGG and TTTV representing a short series of nucleotides\
@@ -65,7 +65,7 @@ Python Libraries
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to where the FuzzyMatching package has been compiled in the computer\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**NOTE:** FuzzyMatching is a Linux package exclusive to **CSIRO**. Only authorised people can get access to this package. 
 
-**Running the program**
+## Running the program
 
 In this first example given below, two target genomes are provided in the form of two variants of the SARS-COV-2 virus with file names “SARSCOV2a.fasta” and “SARSCOV2b.fasta.” The PAM consists of the nucleotide sequence TTTV (V being either a A, G, or C) located on the 5’ end of the target sequence. The length of the targets for guide-RNA binding site must be 20 bp long. The path to call the FuzzyMatching package is “/home/user1/offtargets” to initiate off-target sequence comparison.
 
