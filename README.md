@@ -4,6 +4,8 @@ The main goal of this project is to develop a Bioinformatics pipeline for design
 
 The pipeline consists of three modules: **Target Identification, Target Evaluation, and Uniqueness Evaluation**. In the Target Identification stage, the program scans the target genome sequences and searches for candidate guide-RNA sites that are common across all targets. In Target Evaluation, the program extracts features from the guide-RNA sequences and runs them through a machine learning algorithm that predicts whether they have high (positive) or low (negative) activity in terms of cleavage efficiency. Lastly, in Uniqueness Evaluation, the program outputs the guide-RNA sequences that is unique to that particular family of virus through comparative analysis. 
 
+![image](https://github.com/camille-codes/CRISPR-Dx/assets/63538087/5d287ea5-090d-4c43-ad29-d406bf4c59fa)
+
 ## Requirements
 
 **Operating system:** Linux
