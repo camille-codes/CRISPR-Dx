@@ -44,21 +44,21 @@ The pipeline consists of three modules: **Target Identification, Target Evaluati
   
 * *--input* : Target sequences\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Fasta (.fasta) or GZ (.gz) file containing the target sequences.\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The script accepts files with multiple sequences separated by an ID header starting with the symbol “>”. See Figure 15 for a sample of a       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fasta file.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The script accepts files with multiple sequences separated by an ID header starting with the symbol “>”
   
 * *--offtarget* : Off-target sequences\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Fasta (.fasta) containing the off-target sequences.\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The script accepts files with multiple sequences separated by an ID header starting with the symbol “>”. See Figure 15 for a sample of a       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fasta file.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The script accepts files with multiple sequences separated by an ID header starting with the symbol “>”
 
 * *--output* : Output\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output file where the detected target sites are printed to be processed in the next module (Target Evaluation).\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Text file format (.txt) is preferred for low memory storage.
   
 * *--gff* : Gene annotation file\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional: The General Feature Format (.gff) contains the annotation of the target sequences including the start and end location of the\       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transcriptomes. A compressed version (.gff.tz) 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional: The General Feature Format (.gff) contains the annotation of the target sequences including the start and end location of the      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transcriptomes. A compressed version (.gff.tz) 
 
 * *--gene* : Target gene\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional: The ID of the target gene region as named in the GFF file\
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional: The ID of the target gene region as named in the GFF file
 
 * *--chrom* : Chromosome\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optional: The ID of the target chromosome in a genome. 
